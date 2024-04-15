@@ -1,0 +1,22 @@
+controller_names:
+  - scaled_pos_joint_traj_controller
+  - gripper_controller
+
+scaled_pos_joint_traj_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - shoulder_pan_joint
+    - shoulder_lift_joint
+    - elbow_joint
+    - wrist_1_joint
+    - wrist_2_joint
+    - wrist_3_joint
+    
+gripper_controller:
+  action_ns: gripper_cmd
+  default: True
+  type: GripperCommand
+  joints:
+    - rg2_gripper_finger_left_joint
