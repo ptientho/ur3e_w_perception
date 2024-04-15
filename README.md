@@ -1,4 +1,4 @@
-# checkpoint7-Manipulation-and-Perception
+# UR3e with Perception for Pick-and-place Task
 
 <p>The goal of this project is to use manipulation and perception to generate a pick-and-place task. UR5 robot is to pick an object on a table and place in a different location.</p>
 
