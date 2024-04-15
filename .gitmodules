@@ -1,0 +1,6 @@
+[submodule "perception_ros2"]
+	path = perception_ros2
+	url = https://bitbucket.org/theconstructcore/perception_ros2.git
+[submodule "ur3e_ros2_description"]
+	path = ur3e_ros2_description
+	url = https://bitbucket.org/theconstructcore/ur3e_ros2_description.git
